@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A426E321F6C117100C3A36B /* LBBSNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A426E311F6C117100C3A36B /* LBBSNavController.m */; };
+		3A426E3E1F6C246500C3A36B /* LBBSEssenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A426E3D1F6C246500C3A36B /* LBBSEssenceController.m */; };
+		3A426E411F6C247400C3A36B /* LBBSFollowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A426E401F6C247400C3A36B /* LBBSFollowController.m */; };
+		3A426E441F6C247F00C3A36B /* LBBSMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A426E431F6C247F00C3A36B /* LBBSMineController.m */; };
+		3A426E471F6C248A00C3A36B /* LBBSNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A426E461F6C248A00C3A36B /* LBBSNewController.m */; };
+		3A426E4A1F6C249D00C3A36B /* LBBSPublishController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A426E491F6C249D00C3A36B /* LBBSPublishController.m */; };
 		3AFA7E621F64459000CC1D2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFA7E611F64459000CC1D2D /* main.m */; };
 		3AFA7E651F64459000CC1D2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFA7E641F64459000CC1D2D /* AppDelegate.m */; };
-		3AFA7E6B1F64459000CC1D2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFA7E691F64459000CC1D2D /* Main.storyboard */; };
 		3AFA7E6D1F64459000CC1D2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFA7E6C1F64459000CC1D2D /* Assets.xcassets */; };
 		3AFA7E701F64459000CC1D2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFA7E6E1F64459000CC1D2D /* LaunchScreen.storyboard */; };
 		3AFA7E7B1F64459000CC1D2D /* LBBaiSiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFA7E7A1F64459000CC1D2D /* LBBaiSiTests.m */; };
@@ -35,11 +40,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A426E301F6C117100C3A36B /* LBBSNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBSNavController.h; sourceTree = "<group>"; };
+		3A426E311F6C117100C3A36B /* LBBSNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBSNavController.m; sourceTree = "<group>"; };
+		3A426E3C1F6C246500C3A36B /* LBBSEssenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBSEssenceController.h; sourceTree = "<group>"; };
+		3A426E3D1F6C246500C3A36B /* LBBSEssenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBSEssenceController.m; sourceTree = "<group>"; };
+		3A426E3F1F6C247400C3A36B /* LBBSFollowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBSFollowController.h; sourceTree = "<group>"; };
+		3A426E401F6C247400C3A36B /* LBBSFollowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBSFollowController.m; sourceTree = "<group>"; };
+		3A426E421F6C247F00C3A36B /* LBBSMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBSMineController.h; sourceTree = "<group>"; };
+		3A426E431F6C247F00C3A36B /* LBBSMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBSMineController.m; sourceTree = "<group>"; };
+		3A426E451F6C248A00C3A36B /* LBBSNewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBSNewController.h; sourceTree = "<group>"; };
+		3A426E461F6C248A00C3A36B /* LBBSNewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBSNewController.m; sourceTree = "<group>"; };
+		3A426E481F6C249D00C3A36B /* LBBSPublishController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBSPublishController.h; sourceTree = "<group>"; };
+		3A426E491F6C249D00C3A36B /* LBBSPublishController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBSPublishController.m; sourceTree = "<group>"; };
 		3AFA7E5D1F64459000CC1D2D /* LBBaiSi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBBaiSi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFA7E611F64459000CC1D2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3AFA7E631F64459000CC1D2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3AFA7E641F64459000CC1D2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3AFA7E6A1F64459000CC1D2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3AFA7E6C1F64459000CC1D2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AFA7E6F1F64459000CC1D2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AFA7E711F64459000CC1D2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,6 +94,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A426E331F6C20B000C3A36B /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3A426E371F6C244A00C3A36B /* essence */ = {
+			isa = PBXGroup;
+			children = (
+				3A426E3C1F6C246500C3A36B /* LBBSEssenceController.h */,
+				3A426E3D1F6C246500C3A36B /* LBBSEssenceController.m */,
+			);
+			path = essence;
+			sourceTree = "<group>";
+		};
+		3A426E381F6C244A00C3A36B /* follow */ = {
+			isa = PBXGroup;
+			children = (
+				3A426E3F1F6C247400C3A36B /* LBBSFollowController.h */,
+				3A426E401F6C247400C3A36B /* LBBSFollowController.m */,
+			);
+			path = follow;
+			sourceTree = "<group>";
+		};
+		3A426E391F6C244A00C3A36B /* mine */ = {
+			isa = PBXGroup;
+			children = (
+				3A426E421F6C247F00C3A36B /* LBBSMineController.h */,
+				3A426E431F6C247F00C3A36B /* LBBSMineController.m */,
+			);
+			path = mine;
+			sourceTree = "<group>";
+		};
+		3A426E3A1F6C244A00C3A36B /* new */ = {
+			isa = PBXGroup;
+			children = (
+				3A426E451F6C248A00C3A36B /* LBBSNewController.h */,
+				3A426E461F6C248A00C3A36B /* LBBSNewController.m */,
+			);
+			path = new;
+			sourceTree = "<group>";
+		};
+		3A426E3B1F6C244A00C3A36B /* publish */ = {
+			isa = PBXGroup;
+			children = (
+				3A426E481F6C249D00C3A36B /* LBBSPublishController.h */,
+				3A426E491F6C249D00C3A36B /* LBBSPublishController.m */,
+			);
+			path = publish;
+			sourceTree = "<group>";
+		};
 		3AFA7E541F64459000CC1D2D = {
 			isa = PBXGroup;
 			children = (
@@ -104,7 +172,6 @@
 				3AFA7E631F64459000CC1D2D /* AppDelegate.h */,
 				3AFA7E641F64459000CC1D2D /* AppDelegate.m */,
 				3AFA7E961F6450C400CC1D2D /* classes */,
-				3AFA7E691F64459000CC1D2D /* Main.storyboard */,
 				3AFA7E6C1F64459000CC1D2D /* Assets.xcassets */,
 				3AFA7E6E1F64459000CC1D2D /* LaunchScreen.storyboard */,
 				3AFA7E711F64459000CC1D2D /* Info.plist */,
@@ -144,7 +211,6 @@
 			children = (
 				3AFA7E971F6450C400CC1D2D /* controller */,
 				3AFA7E991F6450C400CC1D2D /* model */,
-				3AFA7E9A1F6450C400CC1D2D /* view */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -152,6 +218,11 @@
 		3AFA7E971F6450C400CC1D2D /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				3A426E371F6C244A00C3A36B /* essence */,
+				3A426E381F6C244A00C3A36B /* follow */,
+				3A426E391F6C244A00C3A36B /* mine */,
+				3A426E3A1F6C244A00C3A36B /* new */,
+				3A426E3B1F6C244A00C3A36B /* publish */,
 				3AFA7E981F6450C400CC1D2D /* main */,
 			);
 			path = controller;
@@ -162,6 +233,9 @@
 			children = (
 				3AFA7E9B1F6450FB00CC1D2D /* LBBSTabBarController.h */,
 				3AFA7E9C1F6450FB00CC1D2D /* LBBSTabBarController.m */,
+				3A426E301F6C117100C3A36B /* LBBSNavController.h */,
+				3A426E311F6C117100C3A36B /* LBBSNavController.m */,
+				3A426E331F6C20B000C3A36B /* view */,
 			);
 			path = main;
 			sourceTree = "<group>";
@@ -171,13 +245,6 @@
 			children = (
 			);
 			path = model;
-			sourceTree = "<group>";
-		};
-		3AFA7E9A1F6450C400CC1D2D /* view */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,7 +357,6 @@
 			files = (
 				3AFA7E701F64459000CC1D2D /* LaunchScreen.storyboard in Resources */,
 				3AFA7E6D1F64459000CC1D2D /* Assets.xcassets in Resources */,
-				3AFA7E6B1F64459000CC1D2D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,8 +382,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AFA7E9D1F6450FB00CC1D2D /* LBBSTabBarController.m in Sources */,
+				3A426E3E1F6C246500C3A36B /* LBBSEssenceController.m in Sources */,
 				3AFA7E651F64459000CC1D2D /* AppDelegate.m in Sources */,
+				3A426E4A1F6C249D00C3A36B /* LBBSPublishController.m in Sources */,
+				3A426E411F6C247400C3A36B /* LBBSFollowController.m in Sources */,
+				3A426E441F6C247F00C3A36B /* LBBSMineController.m in Sources */,
+				3A426E321F6C117100C3A36B /* LBBSNavController.m in Sources */,
 				3AFA7E621F64459000CC1D2D /* main.m in Sources */,
+				3A426E471F6C248A00C3A36B /* LBBSNewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,14 +425,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3AFA7E691F64459000CC1D2D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3AFA7E6A1F64459000CC1D2D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3AFA7E6E1F64459000CC1D2D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -555,6 +619,7 @@
 				3AFA7E8C1F64459000CC1D2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AFA7E8D1F64459000CC1D2D /* Build configuration list for PBXNativeTarget "LBBaiSiTests" */ = {
 			isa = XCConfigurationList;
@@ -563,6 +628,7 @@
 				3AFA7E8F1F64459000CC1D2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AFA7E901F64459000CC1D2D /* Build configuration list for PBXNativeTarget "LBBaiSiUITests" */ = {
 			isa = XCConfigurationList;
@@ -571,6 +637,7 @@
 				3AFA7E921F64459000CC1D2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
